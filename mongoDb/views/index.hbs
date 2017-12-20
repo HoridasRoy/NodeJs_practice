@@ -66,6 +66,14 @@
 
   <form action="/update" method="post">
 
+
+    <div>
+      <label> ID </label>
+      <br>
+      <input type="text" name ="id">
+
+    </div>
+
     <div>
       <label> Title </label>
       <br>
@@ -100,27 +108,14 @@
   <form action="/delete" method="post">
 
     <div>
-      <label> Title </label>
+      <label> ID </label>
       <br>
-      <input type="text" name="title">
+      <input type="text" name="id">
 
     </div>
 
-    <div>
-      <label> Content </label>
-      <br>
-      <input type="text" name="content">
 
-    </div>
-
-    <div>
-      <label> Author </label>
-      <br>
-      <input type="text" name="author">
-
-    </div>
-
-    <button type="submit"> Insert </button>
+    <button type="submit"> Delete </button>
 
   </form>
 
